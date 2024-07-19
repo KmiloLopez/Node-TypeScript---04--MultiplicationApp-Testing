@@ -12,7 +12,7 @@ interface RunOptions {
 
 export class ServerApp {
 
-
+//definicion de l metodo estatico run
   static run({ base, limit, showTable, fileDestination, fileName }: RunOptions) {
     console.log('Server running...');
     
