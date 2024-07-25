@@ -16,7 +16,7 @@ export class SaveFile implements SaveFileUseCase {
   constructor(
     /** repository: StorageRepository */
   ) { }
-
+//si todo sale bien con execute regresa true, si no regresa false
   execute({ 
     fileContent, 
     fileDestination = 'outputs', 
@@ -29,7 +29,7 @@ export class SaveFile implements SaveFileUseCase {
       return true;
       
     } catch (error) {
-      console.error(error);
+      //console.error(error);
       return false;
     }
   }

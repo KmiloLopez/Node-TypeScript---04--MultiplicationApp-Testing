@@ -18,6 +18,7 @@ npm run dev
 
 * Programa de consola, crea un carpeta outputs y un archivo con la tabla de multiplicar especificada por las banderas ("dev:nodemon": "nodemon -b 7",)
 * Se quiere separar responsabilidades, para un codigo limpio facilmente entendible y optimo para proyectos grandes.
+* Se realizaron pruebas unitarias con JEST, con suit de test justo junto al archivo.
 
 
 ````
